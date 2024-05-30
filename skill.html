@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Custom CSS -->
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+        background: url('Image/bg.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .skill-box {
+      margin-top: 20px;
+    }
+    .skill {
+      margin-bottom: 20px;
+    }
+    .progress-bar {
+      width: 100%;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress {
+      height: 20px;
+      background-color: #007bff;
+      text-align: right;
+      padding-right: 5px;
+      color: white;
+      border-radius: 5px 0 0 5px;
+      line-height: 20px; /* Ensures the text is vertically centered */
+      position: relative;
+      animation: loadProgress 2s ease-in-out forwards;
+    }
+    @keyframes loadProgress {
+      from {
+        width: 0;
+      }
+      to {
+        width: var(--width);
+      }
+    }
+  </style>
+</head>
+<body>
+ <header>
+              <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand brand-name" href="#">Rohith Kumar R </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="Education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="skill.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="Project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link headerachor" href="contact.html">Contact Me</a>
+                    </li>
+                  </ul>
+              </nav>
+          </header>
+
+         
+
+<div class="container">
+  <h1>Skills</h1>
+  <div class="card">
+    <div class="card-body">
+      <div class="skill-box">
+        <div class="skill">
+          <span class="skill-name">HTML</span>
+          <div class="progress-bar">
+            <div class="progress" style="--width: 70%;">70%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">CSS</span>
+          <div class="progress-bar">
+            <div class="progress" style="--width: 60%;">60%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">JavaScript</span>
+          <div class="progress-bar">
+            <div class="progress" style="--width: 25%;">25%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">Python</span>
+          <div class="progress-bar">
+            <div class="progress" style="--width: 7%;">7%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">Java</span>
+          <div class="progress-bar">
+            <div class="progress" style="--width: 80%;">80%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">SQL</span>
+          <div class="progress-bar">
+            <div class="progress" style="--width: 75%;">75%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
